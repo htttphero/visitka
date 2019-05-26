@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    'use strict';
+	'use strict';
 
 	//********* page loader js
 
@@ -64,8 +64,8 @@ $(document).ready(function () {
 			}, 1000);
 		});
 	}, {
-		offset: "80%"
-	});
+			offset: "80%"
+		});
 
 	//*** wow js
 
@@ -82,15 +82,15 @@ $(document).ready(function () {
 		autoplay: true,
 		singleItem: true,
 		loop: true,
-		responsive:{
-			0:{
-				items:1
+		responsive: {
+			0: {
+				items: 1
 			},
-			680:{
-				items:2
+			680: {
+				items: 2
 			},
-			1000:{
-				items:3
+			1000: {
+				items: 3
 			}
 		}
 	});
@@ -109,36 +109,36 @@ $(document).ready(function () {
 		delegate: 'a',
 		removalDelay: 400, //delay removal by X to allow out-animation
 		callbacks: {
-			beforeOpen: function() {
+			beforeOpen: function () {
 				this.st.mainClass = this.st.el.attr('data-effect');
 			}
 		},
 		midClick: true
 	});
-	
+
 	//**** testimonial carousel
 
-	$("#testimonial-carousel").owlCarousel({
-		navigation: false,
-		pagination: true,
-		slideSpeed: 800,
-		paginationSpeed: 800,
-		smartSpeed: 500,
-		autoplay: true,
-		singleItem: true,
-		loop: true,
-		responsive:{
-			0:{
-				items:1
-			},
-			680:{
-				items:1
-			},
-			1000:{
-				items:1
-			}
-		}
-	});
+	// $("#testimonial-carousel").owlCarousel({
+	// 	navigation: false,
+	// 	pagination: true,
+	// 	slideSpeed: 800,
+	// 	paginationSpeed: 800,
+	// 	smartSpeed: 500,
+	// 	autoplay: true,
+	// 	singleItem: true,
+	// 	loop: true,
+	// 	responsive:{
+	// 		0:{
+	// 			items:1
+	// 		},
+	// 		680:{
+	// 			items:1
+	// 		},
+	// 		1000:{
+	// 			items:1
+	// 		}
+	// 	}
+	// });
 
 	//***********YTplayer js
 
@@ -151,7 +151,7 @@ $(document).ready(function () {
 	// 	opacity:1,
 	// 	quality:'default'
 	// });
-	
+
 
 
 });
