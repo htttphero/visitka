@@ -1141,7 +1141,7 @@ canvas{
 
 /*-------- 12. Brand area starts-----------*/
 
-.brand-logo-img{
+/* .brand-logo-img{
     border:1px solid #ddd;
     transition: all 300ms ease-in-out;
     padding: 10px;
@@ -1150,7 +1150,7 @@ canvas{
 .brand-logo-img:hover{
     border-color: transparent;
     box-shadow: 0 20px 40px rgba(0,0,0,.2);
-}
+} */
 
 /*--------Brand area ends-----------*/
 
@@ -1169,7 +1169,10 @@ padding: 40px 0;
 }
 
 
-
+.form-control{
+    font-size: 18px;
+    
+}
 
 
 
