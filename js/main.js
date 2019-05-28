@@ -12,7 +12,7 @@ $(document).ready(function () {
 
 	$(window).on('scroll', function () {
 		var menu_area = $('.nav-area');
-		if ($(window).scrollTop() > 200) {
+		if ($(window).scrollTop() > 100) {
 			menu_area.addClass('sticky_navigation');
 		} else {
 			menu_area.removeClass('sticky_navigation');

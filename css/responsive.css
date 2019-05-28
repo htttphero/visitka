@@ -11,6 +11,12 @@ NB: This is the responsive stylesheet of this theme.
 
 
 /* Medium Layout: 1280px. */
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+
+
 @media only screen and (min-width: 992px) and (max-width: 1200px) {}
 
 /* Tablet Layout: 768px. */
@@ -19,20 +25,32 @@ NB: This is the responsive stylesheet of this theme.
         padding: 35px 0;
     }
 
-
+.navbar-nav{
+    font-size: 12px;
+}
 
 .frontBackground{
+    background: rgba(0, 0, 0, 0.4);;
+}
+ 
+
+/* .frontBackground{
     background: none;
+} */
+
+#front{
+    margin-top: 30px;
 }
 
 #front .a{
-margin-top: 100px;
-color: white;
+margin-top: 167px;
+color: grey;
 }
 
 
+
 #front .b{
-    color: white;
+    color: grey;
 }
 
 
@@ -88,6 +106,9 @@ color: white;
     .socials {
         padding-top: 3%;
     }
+
+
+
 
 }
 
