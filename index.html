@@ -883,7 +883,14 @@
                         <p class="line-one"></p>
                     </div>
                 </div>
+                
+                <!-- <div class="badbr">
+                <br>
+                <br>
+                <br>
+            </div> -->
 
+            
 
                 <div class="col-md-10 col-md-offset-1">
                     <form id="contact-form" method="post" action="contact.php"  >
@@ -895,13 +902,13 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Введите ваше имя*" required="required" data-error="Имя нужно ввести обезательно.">
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Введите ваше имя*" required  data-error="Имя нужно ввести обезательно.">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Введите ваш email *" required="required" data-error="Введите правильный Email.">
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Введите ваш email *" required data-error="Введите правильный Email.">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
@@ -909,12 +916,15 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <textarea id="form_message" name="message" class="form-control" placeholder="Содержание  сообщения*" rows="4" required="required" data-error="Оставьте ваше сообщение"></textarea>
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="Содержание  сообщения*" rows="4" required data-error="Оставьте ваше сообщение"></textarea>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
+                             
                                 <div class="col-md-12">
-                                    <button type = "submit" class="btn btn-send" style="background-color:green;" value="">Отправить сообщение</button>
+                                    <button type = "submit" class="btn btn-send" style="background-color:green;" id = "send" value="">Отправить сообщение</button>
+                            
+                                    <div id = "hid" class = "alert alert-success" style= "display: none">Спасибо. Ваше сообщение удачно отправлено.</div>
                                 </div>
                             </div>
                         </div>
@@ -926,6 +936,7 @@
         </div>
     </div>
 
+ 
     <!--contact area ends-->
 
     <!--Brand area starts-->
@@ -1011,7 +1022,33 @@
     <!--Main js-->
     <script src="js/main.js"></script>
     
-    <script> 
-	</script>
+    <script>
+            $("#send").click(function () {
+                var params = {
+                    name: $("#form_name").val(),
+                    email: $("#form_email").val(),
+                    message: $("#form_message").val(),
+                }
+                $.post("contact.php", params, function (data) {
+                    $("#send").text(data);
+ 
+                    $("#hid").text("сообщение успешно отправилось");
+                    $("#hid").css("display", "block")
+                    // $("#hid").css("display", "none")
+
+                                 function func() {
+                                    $("#hid").css("display", "none")
+            }
+
+            setTimeout(func, 3000);
+                });
+            });
+
+           
+
+        </script>
+ 
+
+
 </body>
 </html>
