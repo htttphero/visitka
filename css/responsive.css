@@ -27,15 +27,32 @@ NB: This is the responsive stylesheet of this theme.
     .navbar-nav {
         margin-top: 26px;
     }
-}
+   #CV1{
+        padding-left: 47px;
+        margin-bottom: 13px;
+    }
+    #CV2{
+        padding-left: 1px;
+    }
 
+    .about-text-left h3{
+        margin-bottom:60px;
+  }
+
+  .skillbar{
+    margin-bottom: 15px;
+  }
+
+}
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .section-padding {
         padding: 35px 0;
     }
 
-
+    .about-text-left h3{
+        margin-bottom:127px;
+    }
 
     .navbar-right li a{
         
@@ -146,6 +163,9 @@ color: grey;
         margin-bottom: 20px;
     }
 
+    .about-text-left .cvboth{
+        margin-right: 1px;
+    }
 
 
 .frontBackground{

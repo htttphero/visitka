@@ -20,12 +20,14 @@
    <!--  <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,600,700,800" rel="stylesheet"> -->
 <!--      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
  -->     <!--Font Awesome css-->
-<!--     <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
 
     <!--Bootstrap css-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
 
     <!--Animate css-->
     <link rel="stylesheet" href="css/animate.css">
@@ -173,14 +175,16 @@
                         <h2 style="text-align: center;">Романец Сергей Вячеславович</h2> <!--edit name-->
                         <h3 style="text-align: center;">PHP Developer</h3> <!--edit designation-->
                         <!-- <p class="resume"> Я являюсь начинающим web разработчиком. В 2019 году окончил Запорожский Национальный технический университет (ЗНТУ) по специальности инженер программного обеспечения(Software Engineer). В данный момент нахожусь в поиске новой работы по специальности.</p>
-           -->
-                            <a href="images/about/demo-cv.png" style="padding-left: 60px" download>Download CV &nbsp; &nbsp;<i class="fa fa-download"></i></a> 
+           -->             
+                          <div class = "cvboth">
+                            <a href="images/about/demo-cv.png" download id ="CV1">Download CV &nbsp; &nbsp;<i class="fa fa-download"></i></a> 
                             <div class="hidebr">
                             <br>
                             <br>
                             </div>
                             <br>
-                             <a href="images/about/demo-cv.png" download>Загрузить резюме &nbsp; &nbsp;<i class="fa fa-download"></i></a>
+                             <a href="images/about/demo-cv.png" id="CV2" download >Загрузить резюме &nbsp; &nbsp;<i class="fa fa-download"></i></a>
+                          </div>
                       
                     </div>
                 </div>
@@ -320,101 +324,100 @@
 
     <div id="services" class="services-area section-padding"  >
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
-                     
-                        <h2>Что я предлагаю</h2>
-                        <p class="line-one"></p>
+                    <div class="row">
+                            <div class="col-md-12">
+                                    <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
+                                    
+                                        <h2>Что я предлагаю</h2>
+                                        <p class="line-one"></p>
 
+                                    </div>
+                            </div>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div id="services-carousel" class="owl-carousel owl-theme">
+                    <div class="row">
+                        <div id="services-carousel" class="owl-carousel owl-theme">
 
-                    <div class="single-services text-center item">
-                        <div class="services-icon">
-                            <i class="fab fa-html5"></i>
-                        </div>
-                        <div class="services-content">
-                            <h3>HTML5</h3>  
-                            <p>Базовые навыки работы с HTML/CSS </p>
-                        </div>
-                    </div>
+                            <div class="single-services text-center item">
+                                <div class="services-icon">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <div class="services-content">
+                                    <h3>HTML5</h3>  
+                                    <p>Базовые навыки работы с HTML/CSS </p>
+                                </div>
+                            </div>
 
-                    <div class="single-services text-center item">
-                        <div class="services-icon">
-                            <i class="fab fa-css3-alt"></i> </div>
-                        <div class="services-content">
-                            <h3>CSS3</h3>  
-                            <p>Базовые понятия. Flexbox. Bootstrap. Адапртивная верстка. Семантическая верстка. </p>
-                        </div>
-                    </div>
+                            <div class="single-services text-center item">
+                                <div class="services-icon">
+                                    <i class="fab fa-css3-alt"></i> </div>
+                                <div class="services-content">
+                                    <h3>CSS3</h3>  
+                                    <p>Базовые понятия. Flexbox. Bootstrap. Адапртивная верстка. Семантическая верстка. </p>
+                                </div>
+                            </div>
 
 
-                    <div class="single-services text-center item">
-                        <div class="services-icon">
-                            <i class="fab fa-js-square"></i>
-                        </div>                    
-                        <div class="services-content">
-                            <h3>Javascript</h3>  
-                            <p>Базовые понятия. Архитектура. Замыкания. Контекст вызова. DOM. BOM. Асинхронный JS с использованием QUERY(Ajax)</p>
-                        </div>
+                            <div class="single-services text-center item">
+                                <div class="services-icon">
+                                    <i class="fab fa-js-square"></i>
+                                </div>                    
+                                <div class="services-content">
+                                    <h3>Javascript</h3>  
+                                    <p>Базовые понятия. Архитектура. Замыкания. Контекст вызова. DOM. BOM. Асинхронный JS с использованием QUERY(Ajax)</p>
+                                </div>
 
-                    </div>
+                            </div>
 
-                    <div class="single-services text-center item">
-                        <div class="services-icon">
-                            <i class="fab fa-php"></i>
-                        </div>
-                        <div class="services-content">
-                            <h3>PHP/MYQL</h3>  
-                            <p>Базовые понятия. ООП. Паттерны MVC, Singleton, Depedency Injection, Active Record. Основы синтаксиса SQL</p>
-                        </div>
-                    </div>
-              
+                            <div class="single-services text-center item">
+                                <div class="services-icon">
+                                    <i class="fab fa-php"></i>
+                                </div>
+                                <div class="services-content">
+                                    <h3>PHP/MYQL</h3>  
+                                    <p>Базовые понятия. ООП. Паттерны MVC, Singleton, Depedency Injection, Active Record. Основы синтаксиса SQL</p>
+                                </div>
+                            </div>
+                    
 
 
-                    <div class="single-services text-center item">
-                        <div class="services-icon">
-                            <i class="fab fa-vuejs"></i>                        </div>
-                        <div class="services-content">
-                            <h3>Vue JS</h3>  
-                            <p>Базовые понятия. Компоненты. Маршрутизация. Vuetify.js. Vue-cli.</p>
-                        </div>
+                            <div class="single-services text-center item">
+                                <div class="services-icon">
+                                    <i class="fab fa-vuejs"></i>                        </div>
+                                <div class="services-content">
+                                    <h3>Vue JS</h3>  
+                                    <p>Базовые понятия. Компоненты. Маршрутизация. Vuetify.js. Vue-cli.</p>
+                                </div>
 
-                    </div>
+                            </div>
 
-                                      <div class="single-services text-center item">
-                        <div class="services-icon">
-                            <i class="fab fa-laravel"></i>                        </div>
-                        <div class="services-content">
-                            <h3>Laravel</h3> 
-                            <p>Базовые понятия. MVC - Model View Controller. Аутентификация. CRUD и resource контроллеры.
-                             Eloquent ORM. Миграции и сидеры. Пагинация. Валидация запросов.</p>
-                        </div>
+                            
+                            <div class="single-services text-center item">
+                                <div class="services-icon">
+                                    <i class="fab fa-laravel"></i>                        </div>
+                                <div class="services-content">
+                                    <h3>Laravel</h3> 
+                                    <p>Базовые понятия. MVC - Model View Controller. Аутентификация. CRUD и resource контроллеры.
+                                    Eloquent ORM. Миграции и сидеры. Пагинация. Валидация запросов.</p>
+                                </div>
 
-                    </div>
+                            </div>
 
-                     <div class="single-services text-center item">
-                        <div class="services-icon">
-                            <i class="fab fa-wordpress-simple"></i>   </div>
-                        <div class="services-content">
-                            <h3>WordPress</h3> 
-                            <p>Базовые понятия. Посадка верстки макета на WordPress. Actions and Filters. Underscores</p>
-                        </div>
+                            <div class="single-services text-center item">
+                                <div class="services-icon">
+                                    <i class="fab fa-wordpress-simple"></i>   </div>
+                                <div class="services-content">
+                                    <h3>WordPress</h3> 
+                                    <p>Базовые понятия. Посадка верстки макета на WordPress. Actions and Filters. Underscores</p>
+                                </div>
 
-                    </div>
+                            </div>
 
 
 
                     
 
-                    </div>
-                </div>
-
-            </div>
+                         </div>
+                     </div>
         </div>
     </div>
 
@@ -468,7 +471,7 @@
 
 	<div id="portfolio" class="portfolio-area section-padding">
 		<div class="container">
-			<div class="row">
+			<div>
 				<div class="col-md-12">
 					<div class="section-header wow fadeInDown" data-wow-delay="0.2s">
 						 
@@ -480,17 +483,17 @@
 
 			<div class="row">
 
-                <div class="portfolio-items">
+                <div class="portfolio-items row small-gutters">
 
               
-
-                    <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
+             <div class="col-md-4 col-sm-6 col-xs-12" style="height:330px;">
+                    <div>
 
                         <div id="inline-popups-2">
                             <a href="#test-popup-2" data-effect="mfp-zoom-out">
                                 <div class="hovereffect">
 
-                                    <img src="assets/projectPictures/crud.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    <img src="assets/projectPictures/mvc3.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
                                     <div class="overlay">
                                         <h2>Crud приложение</h2> <!--your project name-->
                                         <!-- <p> Приложение с использование php, Bootstrap и подключением к базе данных MySQL для просмотра удаления и редактирования записей.
@@ -506,7 +509,7 @@
 
                                 <div class="col-md-7">
                                     <div class="por-img">
-                                        <img src="assets/projectPictures/crud.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                        <img src="assets/projectPictures/mvc3.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
                                     </div>
                                 </div>
                                 <div class="col-md-5">
@@ -536,8 +539,10 @@
                         </div>
 
                     </div>
+            </div>
 
-                    <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
+             <div class="col-md-4 col-sm-6 col-xs-12" style="height:330px;">
+                    <div class="h">
 
                         <div id="inline-popups-3">
                             <a href="#test-popup-3" data-effect="mfp-zoom-out">
@@ -586,8 +591,10 @@
                         </div>
 
                     </div>
+            </div>
 
-                    <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
+            <div class="col-md-4 col-sm-6 col-xs-12" style="height:330px;">
+                    <div>
 
                         <div id="inline-popups-4">
                             <a href="#test-popup-4" data-effect="mfp-zoom-out">
@@ -634,8 +641,10 @@
                         </div>
 
                     </div>
+            </div>
 
-                    <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
+            <div class="col-md-4 col-sm-6 col-xs-12" style="height:330px;">
+                    <div>
 
                         <div id="inline-popups-5">
                             <a href="#test-popup-5" data-effect="mfp-zoom-out">
@@ -682,10 +691,11 @@
                         </div>
 
                     </div>
+             </div>
 
 
-
-<div class="col-md-4 col-sm-6 col-xs-12 no-pad">
+             <div class="col-md-4 col-sm-6 col-xs-12" style="height:330px;">
+                    <div>
 
                         <div id="inline-popups-3">
                             <a href="#test-popup-3" data-effect="mfp-zoom-out">
@@ -733,12 +743,11 @@
                         </div>
 
                     </div>
+            </div>
 
 
-
-
-
-                    <div class="col-md-4 col-sm-6 col-xs-12 no-pad">
+             <div class="col-md-4 col-sm-6 col-xs-12" style="height:330px;">
+                    <div>
 
                         <div id="inline-popups-6">
                             <a href="#test-popup-6" data-effect="mfp-zoom-out">
@@ -785,6 +794,10 @@
                             </div>
                         </div>
                    </div>
+            </div>
+
+
+
                 </div> <!--end portfolio grid -->
 
             </div>
@@ -810,12 +823,12 @@
 			</div>
 			<div class="row">
 
-                    <div class="col-md-5">
+                    <div class="col-md-5 col-sm-4">
                             <img src="assets/mypic2.jpg" alt="" style="width: 400px; height: 370px;" id = "phot">
                         </div>
 
 				<div class="col-md-6">
-									<p class="textspeach" style="color: black; text-align: justify">Спасибо, что посетили мою страницу. О себе скажу, что не боюсь столкнуться с трудными и неординарными задачами. Быстро обучаюсь. Хорошо владею английским языком и дополнительно изучаю немецкий. Хочу получить вакансию PHP разработчика для дальнейшего изучения PHP технологий и вовлечения в мир разработки. От фирмы жду в первую очередь дружелюбный коллектив и возможность получения наставлений и подсказок в работе от более квалифицированных коллег.  </p>
+									<p class="textspeach" style="color: black; text-align: justify">Спасибо, что посетили мою страницу. О себе скажу, что не боюсь столкнуться с трудными и неординарными задачами. Быстро обучаюсь. Хорошо владею английским языком и дополнительно изучаю немецкий. Хочу получить вакансию PHP разработчика для дальнейшего изучения PHP технологий и вовлечения в мир разработки. От фирмы жду в первую очередь дружелюбный коллектив и возможность обучения у более квалифицированных коллег.  </p>
                 </div>
                  
 			</div>
@@ -922,7 +935,7 @@
                                 </div>
                              
                                 <div class="col-md-12">
-                                    <button type = "submit" class="btn btn-send" style="background-color:green;" id = "send" value="">Отправить сообщение</button>
+                                    <button type = "submit" class="btn btn-send" style="background-color:#16f316d1; color:black;" id = "send" value="">Отправить сообщение</button>
                             
                                     <div id = "hid" class = "alert alert-success" style= "display: none">Спасибо. Ваше сообщение удачно отправлено.</div>
                                 </div>
