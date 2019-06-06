@@ -13,17 +13,43 @@ NB: This is the responsive stylesheet of this theme.
 /* Medium Layout: 1280px. */
 
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {}
 
 
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+       .navbar-right li a{
+        
+        font-size: 17px;
+        padding: 3px;
+    }
+
+    .navbar-nav {
+        margin-top: 26px;
+    }
+}
 
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .section-padding {
         padding: 35px 0;
     }
+
+
+
+    .navbar-right li a{
+        
+        font-size: 12px;
+        padding: 3px;
+    }
+
+    .navbar-nav {
+        margin-top: 26px;
+      
+    }
+
+
+ 
 
 .navbar-nav{
     font-size: 12px;
@@ -115,6 +141,12 @@ color: grey;
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
    
+
+    .about-text-left h3{
+        margin-bottom: 20px;
+    }
+
+
 
 .frontBackground{
     background: rgba(0, 0, 0, 0.4);;
@@ -316,6 +348,9 @@ font-size: 36px
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
 
+    /* .about-text-left h3 {
+      margin-bottom: 20px;
+    } */
 
 #front .a{
 margin-top: 150px;
