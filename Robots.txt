@@ -1,0 +1,10 @@
+# Rule 1
+# Rule 2
+User-agent: *
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: googlebot
+Allow: /

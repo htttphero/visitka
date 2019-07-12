@@ -4,63 +4,32 @@
     <!--meta tags-->
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="portfolio template based on HTML5">
+    <meta name="description" content="portfolio site">
     <meta name="keywords" content="onepage, developer, resume, cv, personal, portfolio, personal resume, clean, modern">
     <meta name="author" content="MouriTheme">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="sjyYfwpkTjKOR7gurDLJ_n4NmaijvPDbQxPxxMPZDUU" />
     <!--template title-->
     <title>Романец</title>
-
+    <!-- google-site-verification=sjyYfwpkTjKOR7gurDLJ_n4NmaijvPDbQxPxxMPZDUU -->
     <!--==========Favicon==========-->
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
-    <!--========== Theme Fonts ==========-->
-   <!--  <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,600,700,800" rel="stylesheet"> -->
-<!--      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
- -->     <!--Font Awesome css-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
-
-    <!--Bootstrap css-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
-
-    <!--Animate css-->
     <link rel="stylesheet" href="css/animate.css">
-
-    <!--Animated headline css-->
     <link rel="stylesheet" href="css/jquery.animatedheadline.css">
-    
-	<!-- Owl carousel css
-	<link rel="stylesheet" href="css/owl.carousel.css">
-	<link rel="stylesheet" href="css/owl.theme.default.css"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-	<!--Magnific popup css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> 
+<link rel="stylesheet" href="css/owl.theme.default.css">
 	<link rel="stylesheet" href="css/magnific-popup.css">
-    
-	<!--Normalizer css-->
 	<link rel="stylesheet" href="css/normalize.css">
-
-    <!--Theme css-->
     <link rel="stylesheet" href="css/style.css">
-
-    <!--Responsive css-->
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
 
-    <!--preloader starts-->
-
-
-   <!--  <div class="loader_bg"><div class="loader"></div></div> -->
-
-
-    <!--preloader ends-->
 
     <!--navigation area starts-->
     <div class="generall">
@@ -74,9 +43,8 @@
     <div class= "all">
     <header class="nav-area navbar-fixed-top">
         <div class="container">
-            <div class="row">
+            <div class="row">      
                 <!--main menu starts-->
-
                 <div class="col-md-12">
                     <div class="main-menu">
                         <div class="navbar navbar-cus">
@@ -105,16 +73,14 @@
                         </div>
                     </div>
                 </div>
-
                 <!--main menu ends-->
             </div>
         </div>
     </header>
-
     <!--navigation area ends-->
 
-    <!--Banner area starts-->
 
+    <!--Banner area starts-->
     <div class="banner-area" id="home">
         <div class="banner-table">
             <div class="banner-table-cell">
@@ -123,14 +89,14 @@
                         <div class="row">
                             <div class="col-md-12">
                                    <section class="intro animate-scale banner-area">
-                                    <div class="frontBackground"> 
+                     
                                         <div id="front">
                                             <h1 class="a">Визитка</h1>
                                              <h2 class="b" style="text-align: center;"> Романец Сергей</h2>    
                                             <h1 class="c">PHP разработчик</h1>
-                                            <!-- <h1 class="d">(Software ingeneer)</h1> -->
+                            
                                        </div>
-                                    </div>
+                               
                                   </section>
 
                                 <div class="clearfix"></div>
@@ -144,7 +110,6 @@
             </div>
         </div>
     </div>
-
     <!--Banner area ends-->
 </div><!-- all -->
 </div> <!-- generall -->
@@ -165,32 +130,29 @@
 
 
     <!--about area starts-->
-
     <div class="about-area section-padding" id="about" >
         <div class="container">
 
             <div class="row">
                 <div class="col-md-4 col-xs-12 col-sm-6 col-lg-4">
                     <div class="about-text-left">
-                        <h2 style="text-align: center;">Романец Сергей Вячеславович</h2> <!--edit name-->
-                        <h3 style="text-align: center;">PHP Developer</h3> <!--edit designation-->
-                        <!-- <p class="resume"> Я являюсь начинающим web разработчиком. В 2019 году окончил Запорожский Национальный технический университет (ЗНТУ) по специальности инженер программного обеспечения(Software Engineer). В данный момент нахожусь в поиске новой работы по специальности.</p>
-           -->             
+                        <h2 style="text-align: center;">Романец Сергей Вячеславович</h2>  
+                        <h3 style="text-align: center;">PHP Developer</h3>  
                           <div class = "cvboth">
-                            <a href="images/about/demo-cv.png" download id ="CV1">Download CV &nbsp; &nbsp;<i class="fa fa-download"></i></a> 
+                            <a href="assets/cv/cveng.pdf" download id ="CV1">Download CV &nbsp; &nbsp;<i class="fa fa-download"></i></a> 
                             <div class="hidebr">
                             <br>
                             <br>
                             </div>
                             <br>
-                             <a href="images/about/demo-cv.png" id="CV2" download >Загрузить резюме &nbsp; &nbsp;<i class="fa fa-download"></i></a>
+                             <a href="assets/cv/cvrus.pdf" id="CV2" download >Загрузить резюме &nbsp; &nbsp;<i class="fa fa-download"></i></a>
                           </div>
                       
                     </div>
                 </div>
 
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <img src="assets/myFoto.jpg"  class="img-responsive" alt="about image"> <!--add your image here-->
+                    <img src="assets/myFoto.jpg"  class="img-responsive" alt="about image">  
                 </div>
 
                 <div class="col-md-4 col-xs-12 col-sm-12 col-lg-4">
@@ -198,111 +160,110 @@
 
                         <div id="skills">
 
-                            <!-- <h3 style="text-align: center; margin-bottom: -15px">Моя оценка уровня своих знаний</h3> -->
+                         
 
                             <div class="row">
 
                                 <div class="col-md-12">
 
-                                    <!-- skillbar -->
-                                    <div class="skillbar" data-percent="85%"> <!--edit percentage-->
+                                  
+                                    <div class="skillbar" data-percent="85%">  
 
-                                        <h6 class="skillbar-title">HTML / CSS</h6> <!--edit skills-->
-                                        <h6 class="skillbar-percent">75%</h6> <!--edit percentage-->
+                                        <h6 class="skillbar-title">HTML / CSS</h6>  
+                                        <h6 class="skillbar-percent">75%</h6> 
 
                                         <div class="skillbar-bar" >
                                             <div class="skillbar-child"></div>
                                         </div>
 
                                     </div>
-                                    <!-- end skillbar -->
+                                 
 
                                 </div>
 
 
                                 <div class="col-md-12">
 
-                                    <!-- skillbar -->
-                                    <div class="skillbar" data-percent="60%"> <!--edit percentage-->
+                              
+                                    <div class="skillbar" data-percent="60%">  
 
-                                        <h6 class="skillbar-title">jAVASCRIPT/JQuery/</h6> <!--edit skills-->
-                                        <h6 class="skillbar-percent">65%</h6> <!--edit percentage-->
+                                        <h6 class="skillbar-title">jAVASCRIPT/JQuery/</h6>  
+                                        <h6 class="skillbar-percent">65%</h6>  
 
                                         <div class="skillbar-bar">
                                             <div class="skillbar-child"></div>
                                         </div>
 
                                     </div>
-                                    <!-- end skillbar -->
+                            
 
                                 </div>
 
                                 <div class="col-md-12">
+ 
+                                    <div class="skillbar" data-percent="70%">  
 
-                                    <!-- skillbar -->
-                                    <div class="skillbar" data-percent="70%"> <!--edit percentage-->
-
-                                        <h6 class="skillbar-title">PHP</h6> <!--edit skills-->
-                                        <h6 class="skillbar-percent">70%</h6> <!--edit percentage-->
+                                        <h6 class="skillbar-title">PHP</h6> < 
+                                        <h6 class="skillbar-percent">70%</h6>  
 
                                         <div class="skillbar-bar">
                                             <div class="skillbar-child"></div>
                                         </div>
 
                                     </div>
-                                    <!-- end skillbar -->
+                               
 
                                 </div>
 
                                  <div class="col-md-12">
 
-                                    <!-- skillbar -->
-                                    <div class="skillbar" data-percent="70%"> <!--edit percentage-->
+                      
+                                    <div class="skillbar" data-percent="70%">  
 
-                                        <h6 class="skillbar-title">MySQL</h6> <!--edit skills-->
-                                        <h6 class="skillbar-percent">65%</h6> <!--edit percentage-->
+                                        <h6 class="skillbar-title">MySQL</h6>  
+                                        <h6 class="skillbar-percent">65%</h6>  
 
                                         <div class="skillbar-bar">
                                             <div class="skillbar-child"></div>
                                         </div>
 
                                     </div>
-                                    <!-- end skillbar -->
+                   
 
                                 </div>
 
 
                                 <div class="col-md-12">
 
-                                    <!-- skillbar -->
-                                    <div class="skillbar" data-percent="45%"> <!--edit percentage-->
+                          
+                                    <div class="skillbar" data-percent="45%"> 
 
-                                        <h6 class="skillbar-title">LARAVEL</h6> <!--edit skills-->
-                                        <h6 class="skillbar-percent">60%</h6> <!--edit percentage-->
+                                        <h6 class="skillbar-title">LARAVEL</h6>  
+                                        <h6 class="skillbar-percent">60%</h6>  
 
                                         <div class="skillbar-bar">
                                             <div class="skillbar-child"></div>
                                         </div>
 
                                     </div>
-                                    <!-- end skillbar -->
+                     
 
                                 </div>
 
                                 <div class="col-md-12">
 
-                                    <!-- skillbar -->
-                                    <div class="skillbar" data-percent="50%"> <!--edit percentage-->
+                                 
+                                    <div class="skillbar" data-percent="50%">  
 
-                                        <h6 class="skillbar-title">WORDPRESS</h6> <!--edit skills-->
-                                        <h6 class="skillbar-percent">55%</h6> <!--edit percentage-->
+                                        <h6 class="skillbar-title">WORDPRESS</h6>  
+                                        <h6 class="skillbar-percent">55%</h6>  
 
                                         <div class="skillbar-bar">
                                             <div class="skillbar-child"></div>
                                         </div>
 
                                     </div>
-                                    <!-- end skillbar -->
+                                
 
                                 </div>
 
@@ -317,11 +278,10 @@
 
         </div>
     </div>
-
     <!--about area ends-->
     
-    <!--Services Area Starts-->
 
+    <!--Services Area Starts-->
     <div id="services" class="services-area section-padding"  >
         <div class="container">
                     <div class="row">
@@ -420,55 +380,10 @@
                      </div>
         </div>
     </div>
-
     <!--Services Area Ends-->
     
-	<!--number area starts-->
-
-	<!-- <div class="number-area section-padding" id="offer">
-   
-		<div class="number-all wow fadeInDown" data-wow-delay="0.2s"">Всего на моем счету</div>
-            <p class="line-one"></p>
- <br>
- <br>
-        <div class="container">
-			<div class="row">
-				<div class="col-md-3 col-xs-6">
-					<div class="single-number text-center">
-						<i class="far fa-clock"></i>
-						<h2 class="counter2">250</h2>  
-						<p>Часов работы</p>
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-6">
-					<div class="single-number text-center">
-                        <i class="fas fa-code"></i>
-						<h2 class="counter2">3545</h2>  
-						<p>Линий кода</p>
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-6">
-					<div class="single-number text-center">
-                        <i class="fas fa-list-ol"></i>
-						<h2 class="counter2">10</h2>  
-						<p>Завершонных учебных проектов</p>
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-6">
-					<div class="single-number text-center">
-                        <i class="fas fa-language"></i>
-						<h2 class="counter2">2</h2> 
-						<p>Иностранных языка</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
-	<!--number area ends-->
-   
+ 
 	<!--Portfolio Area Starts-->
-
 	<div id="portfolio" class="portfolio-area section-padding">
 		<div class="container">
 			<div>
@@ -493,12 +408,9 @@
                             <a href="#test-popup-2" data-effect="mfp-zoom-out">
                                 <div class="hovereffect">
 
-                                    <img src="assets/projectPictures/mvc3.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    <img src="assets/projectPictures/mvc3.png" alt="portfolio image" class="img-responsive">  
                                     <div class="overlay">
-                                        <h2>Crud приложение</h2> <!--your project name-->
-                                        <!-- <p> Приложение с использование php, Bootstrap и подключением к базе данных MySQL для просмотра удаления и редактирования записей.
-                                            В приложении создан специальный клас QueryBuilder для более удобной работы с базой данных.
-                                        </p> -->
+                                        <h2>Crud приложение</h2>  
                                     </div>
 
                                 </div>
@@ -509,12 +421,12 @@
 
                                 <div class="col-md-7">
                                     <div class="por-img">
-                                        <img src="assets/projectPictures/mvc3.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                        <img src="assets/projectPictures/mvc3.png" alt="portfolio image" class="img-responsive">  
                                     </div>
                                 </div>
                                 <div class="col-md-5">
                                     <div class="por-text">
-                                        <h2>Crud приложение</h2> <!--your project title-->
+                                        <h2>Crud приложение</h2>  
                                         <p> Приложение с использование php, Bootstrap и подключением к базе данных MySQL для просмотра удаления и редактирования записей.
                                         В приложении создан специальный клас QueryBuilder для более удобной работы с базой данных. </p>
                                         <div class="por-text-details">
@@ -527,8 +439,8 @@
                                                 <div class="col-xs-offset-1 col-xs-7">
                                      
                                                  
-                                                    <p>PHP Site</p> <!--edit here-->
-                                                    <a href="https://github.com/htttphero/Crud-application" target="_blank">github</a> <!--edit here-->
+                                                    <p>PHP Site</p>  
+                                                    <a href="https://github.com/htttphero/Crud-application" target="_blank">github</a>  
                                                 </div>
                                             </div>
                                         </div>
@@ -548,10 +460,9 @@
                             <a href="#test-popup-3" data-effect="mfp-zoom-out">
                                 <div class="hovereffect">
 
-                                <img src="assets/projectPictures/blade.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                <img src="assets/projectPictures/blade.png" alt="portfolio image" class="img-responsive">  
                                     <div class="overlay">
-                                        <h2>Project Three</h2> <!--your project name-->
-                                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit. Accusantium mollitia obcaecati quos.</p> -->
+                                        <h2>Project Three</h2> < 
                                     </div>
 
                                 </div>
@@ -562,12 +473,12 @@
 
                                 <div class="col-md-7">
                                     <div class="por-img">
-                                    <img src="assets/projectPictures/blade.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    <img src="assets/projectPictures/blade.png" alt="portfolio image" class="img-responsive">  
                                     </div>
                                 </div>
                                 <div class="col-md-5">
                                     <div class="por-text">
-                                        <h2>My Project Title</h2> <!--your project title-->
+                                        <h2>My Project Title</h2>  
                                         <p>Crud( create, read, update, and delete) приложение с использованием php, Bootstrap и подключением к базе данных MySQL.
                                             В приложении создан специальный клас QueryBuilder для более удобной работы с базой данных.</p>
                                         <div class="por-text-details">
@@ -579,8 +490,8 @@
                                                 </div>
                                                 <div class="col-xs-offset-1 col-xs-7">
                                             
-                                                    <p>Drupal Site</p> <!--edit here-->
-                                                    <p>www.sainsbury.co.uk</p> <!--edit here-->
+                                                    <p>Drupal Site</p>  
+                                                    <p>www.sainsbury.co.uk</p>  
                                                 </div>
                                             </div>
                                         </div>
@@ -600,10 +511,9 @@
                             <a href="#test-popup-4" data-effect="mfp-zoom-out">
                                 <div class="hovereffect">
 
-                                <img src="assets/projectPictures/mvc3.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                <img src="assets/projectPictures/mvc3.png" alt="portfolio image" class="img-responsive">  
                                     <div class="overlay">
-                                        <h2>Project Four</h2> <!--your project name-->
-                                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit. Accusantium mollitia obcaecati quos.</p> -->
+                                        <h2>Project Four</h2>  
                                     </div>
 
                                 </div>
@@ -613,12 +523,12 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <div class="por-img">
-                                        <img src="assets/projectPictures/mvc3.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                        <img src="assets/projectPictures/mvc3.png" alt="portfolio image" class="img-responsive">  
                                     </div>
                                 </div>
                                 <div class="col-md-5">
                                     <div class="por-text">
-                                        <h2>My Project Title</h2> <!--your project title-->
+                                        <h2>My Project Title</h2>  
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, delectus deserunt eum eveniet, illo iste magni nobis non omnis quia</p>
                                         <div class="por-text-details">
                                             <div class="row">
@@ -629,8 +539,8 @@
                                                 </div>
                                                 <div class="col-xs-offset-1 col-xs-7">
                                        
-                                                    <p>Shopify Site</p> <!--edit here-->
-                                                    <p>www.woolworths.co.au</p> <!--edit here-->
+                                                    <p>Shopify Site</p>  
+                                                    <p>www.woolworths.co.au</p> < 
                                                 </div>
                                             </div>
                                         </div>
@@ -650,10 +560,9 @@
                             <a href="#test-popup-5" data-effect="mfp-zoom-out">
                                 <div class="hovereffect">
 
-                                    <img src="assets/portfolioPicture/todo.jpg" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    <img src="assets/portfolioPicture/todo.jpg" alt="portfolio image" class="img-responsive">  
                                     <div class="overlay">
-                                        <h2>Project Five</h2> <!--your project name-->
-                                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit. Accusantium mollitia obcaecati quos.</p> -->
+                                        <h2>Project Five</h2>  
                                     </div>
 
                                 </div>
@@ -663,12 +572,12 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <div class="por-img">
-                                        <img src="images/portfolio/port5.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                        <img src="assets/portfolioPicture/todo.jpg" alt="portfolio image" class="img-responsive"> 
                                     </div>
                                 </div>
                                 <div class="col-md-5">
                                     <div class="por-text">
-                                        <h2>My Project Title</h2> <!--your project title-->
+                                        <h2>My Project Title</h2>  
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, delectus deserunt eum eveniet, illo iste magni nobis non omnis quia</p>
                                         <div class="por-text-details">
                                             <div class="row">
@@ -679,8 +588,8 @@
                                                 </div>
                                                 <div class="col-xs-offset-1 col-xs-7">
                             
-                                                    <p>Magento Site</p> <!--edit here-->
-                                                    <p>www.titan.co.in</p> <!--edit here-->
+                                                    <p>Magento Site</p>  
+                                                    <p>www.titan.co.in</p>  
                                                 </div>
                                             </div>
                                         </div>
@@ -694,17 +603,16 @@
              </div>
 
 
-             <div class="col-md-4 col-sm-6 col-xs-12" style="height:330px;">
+             <!-- <div class="col-md-4 col-sm-6 col-xs-12" style="height:330px;">
                     <div>
 
                         <div id="inline-popups-3">
                             <a href="#test-popup-3" data-effect="mfp-zoom-out">
                                 <div class="hovereffect">
 
-                                <img src="assets/portfolioPicture/shop.jpg" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                <img src="assets/portfolioPicture/shop.jpg" alt="portfolio image" class="img-responsive">  
                                     <div class="overlay">
-                                        <h2>Project Three</h2> <!--your project name-->
-                                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit. Accusantium mollitia obcaecati quos.</p> -->
+                                        <h2>Project Three</h2>  
                                     </div>
 
                                 </div>
@@ -715,12 +623,12 @@
 
                                 <div class="col-md-7">
                                     <div class="por-img">
-                                    <img src="assets/portfolioPicture/bloglaravel.jpg" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    <img src="assets/portfolioPicture/bloglaravel.jpg" alt="portfolio image" class="img-responsive">  
                                     </div>
                                 </div>
                                 <div class="col-md-5">
                                     <div class="por-text">
-                                        <h2>My Project Title</h2> <!--your project title-->
+                                        <h2>My Project Title</h2>  
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, delectus deserunt eum eveniet, illo iste magni nobis non omnis quia</p>
                                         <div class="por-text-details">
                                             <div class="row">
@@ -731,8 +639,8 @@
                                                 </div>
                                                 <div class="col-xs-offset-1 col-xs-7">
                                      
-                                                    <p>Drupal Site</p> <!--edit here-->
-                                                    <p>www.sainsbury.co.uk</p> <!--edit here-->
+                                                    <p>Drupal Site</p>  
+                                                    <p>www.sainsbury.co.uk</p>  
                                                 </div>
                                             </div>
                                         </div>
@@ -743,20 +651,19 @@
                         </div>
 
                     </div>
-            </div>
+            </div> -->
 
 
-             <div class="col-md-4 col-sm-6 col-xs-12" style="height:330px;">
+             <!-- <div class="col-md-4 col-sm-6 col-xs-12" style="height:330px;">
                     <div>
 
                         <div id="inline-popups-6">
                             <a href="#test-popup-6" data-effect="mfp-zoom-out">
                                 <div class="hovereffect">
 
-                                    <img src="assets/portfolioPicture/bloglaravel.jpg" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                    <img src="assets/portfolioPicture/bloglaravel.jpg" alt="portfolio image" class="img-responsive">  
                                     <div class="overlay">
-                                        <h2>Project Six</h2> <!--your project name-->
-                                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolores, velit. Accusantium mollitia obcaecati quos.</p> -->
+                                        <h2>Project Six</h2>  
                                     </div>
 
                                 </div>
@@ -766,12 +673,12 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <div class="por-img">
-                                        <img src="images/portfolio/port6.png" alt="portfolio image" class="img-responsive"> <!--edit image-->
+                                        <img src="images/portfolio/port6.png" alt="portfolio image" class="img-responsive">  
                                     </div>
                                 </div>
                                 <div class="col-md-5">
                                     <div class="por-text">
-                                        <h2>My Project Title</h2> <!--your project title-->
+                                        <h2>My Project Title</h2>  
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, delectus deserunt eum eveniet, illo iste magni nobis non omnis quia</p>
                                         <div class="por-text-details">
                                             <div class="row">
@@ -782,10 +689,10 @@
                                                     <p>link:</p>
                                                 </div>
                                                 <div class="col-xs-offset-1 col-xs-7">
-                                                    <p>Vodafone</p> <!--edit here-->
-                                                    <p>27/03/2018</p> <!--edit here-->
-                                                    <p>PrestaShop Site</p> <!--edit here-->
-                                                    <p>www.vodafone.com</p> <!--edit here-->
+                                                    <p>Vodafone</p>  
+                                                    <p>27/03/2018</p>  
+                                                    <p>PrestaShop Site</p>  
+                                                    <p>www.vodafone.com</p>  
                                                 </div>
                                             </div>
                                         </div>
@@ -794,22 +701,21 @@
                             </div>
                         </div>
                    </div>
-            </div>
+            </div> -->
 
 
 
-                </div> <!--end portfolio grid -->
+                </div>  
 
             </div>
 
 
 		</div>
 	</div>
-
 	<!--Portfolio Area Ends-->
    
-	<!--Testimonial Section Starts-->
 
+	<!--Testimonial Section Starts-->
 	<div id="testimonial" class="testimonial-area section-padding">
 		<div class="container">
 			<div class="row">
@@ -834,11 +740,10 @@
 			</div>
 		</div>
 	</div>
-
 	<!--Testimonial Section Ends-->
 
-    <!--contact area starts-->
 
+    <!--contact area starts-->
     <div class="contact-area section-padding" id="contact">
         <div class="container">
             <div class="row">
@@ -856,21 +761,21 @@
                     <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.05s">
                         <i class="fa fa-home"></i>
                         <h2>Адрес</h2>
-                        <p>Украина, г.Запорожье</p> <!--edit here-->
+                        <p>Украина, г.Запорожье</p>  
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.05s">
                         <i class="fa fa-phone"></i>
                         <h2>Телефон: </h2>
-                        <p>(+380) 680036640</p> <!--edit here-->
+                        <p>(+380) 680036640</p>  
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="single-contact text-center wow fadeInDown" data-wow-delay="0.05s">
                         <i class="fas fa-envelope"></i>
                         <h2>Email</h2>
-                        <p>virucman@gmail.com</p> <!--edit here-->
+                        <p>virucman@gmail.com</p>  
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
@@ -879,8 +784,8 @@
                         <h2>Социальные сети: </h2>
                         <div class="socials">
         
-                    <a href="https://vk.com/id342046901" target="_blank"><i class="fab fa-vk"></i></i></a> <!--your facebook profile link here-->
-                            <a href="https://github.com/htttphero" target="_blank"><i class="fab fa-github"></i></a> <!--your twitter profile link here-->
+                    <a href="https://vk.com/id342046901" target="_blank"><i class="fab fa-vk"></i></i></a>  
+                            <a href="https://github.com/htttphero" target="_blank"><i class="fab fa-github"></i></a>  
                 
                         </div>
                     </div>
@@ -897,25 +802,19 @@
                     </div>
                 </div>
                 
-                <!-- <div class="badbr">
-                <br>
-                <br>
-                <br>
-            </div> -->
-
-            
+      
 
                 <div class="col-md-10 col-md-offset-1">
                     <form id="contact-form" method="post" action="contact.php"  >
 
-                        <div class="messages"></div> <!--you can change the message in contact.php file -->
+                        <div class="messages"></div>  
 
                         <div class="controls">
 
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Введите ваше имя*" required  data-error="Имя нужно ввести обезательно.">
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Введите ваше имя*" required  data-error="Имя нужно ввести обязательно.">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
@@ -948,94 +847,36 @@
             </div>
         </div>
     </div>
-
- 
     <!--contact area ends-->
-
-    <!--Brand area starts-->
-
-<!--     <div class="brand-area section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-xs-6 col-sm-3">
-                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.2s">
-                        <img src="images/brand/brand-1.png" alt="brand image">  
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-6 col-sm-3">
-                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.4s">
-                        <img src="images/brand/brand-2.png" alt="brand image">  
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-6 col-sm-3">
-                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.6s">
-                        <img src="images/brand/brand-3.png" alt="brand image">  
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-6 col-sm-3">
-                    <div class="brand-logo-img wow fadeInDown" data-wow-delay="0.8s">
-                        <img src="images/brand/brand-4.png" alt="brand image">  
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    <!--Brand area ends-->
-
+ 
     <!--Footer Area Starts-->
-
     <div class="footer-area">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                    <p>Все права защищены (c) Мой сайт </p> <!--edit here-->
+                    <p>Все права защищены (c) Мой сайт </p> 
                 </div>
             </div>
         </div>
     </div>
-
     <!--Footer Area Ends-->
 
     
-
-
-
-    <!--Latest version JQuery-->
-      <!-- <script src="js/jquery-3.2.1.min.js"></script>   -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!--Bootstrap js-->
+  <script src="js/jquery-3.2.1.min.js"></script>  
     <script src="js/bootstrap.min.js"></script>
-
-	<!--Magnific popup js-->
 	<script src="js/jquery.magnific-popup.js"></script>
-
-	<!--Owl Carousel js-->
-	<!-- <script src="js/owl.carousel.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
-	<!--wow js-->
 	<script src="js/wow.min.js"></script>
-
-    <!--Animated headline js-->
     <script src="js/jquery.animatedheadline.js"></script>
-    
-    <!--Validator js-->
     <script src="js/jquery.waypoints.js"></script>
-    
-	<!--counter up js-->
 	  <script src="js/jquery.counterup.min.js"></script>  
-
-    <!--Validator js-->
     <script src="js/validator.js"></script>
-
-    <!--Contact js-->
     <script src="js/contact.js"></script>
+    <script src="js/main.js"></script>  
 
-    <!--Main js-->
-    <script src="js/main.js"></script>
+
     
-    <script>
+    <!-- <script>
             $("#send").click(function () {
                 var params = {
                     name: $("#form_name").val(),
@@ -1047,7 +888,7 @@
  
                     $("#hid").text("сообщение успешно отправилось");
                     $("#hid").css("display", "block")
-                    // $("#hid").css("display", "none")
+           
 
                                  function func() {
                                     $("#hid").css("display", "none")
@@ -1060,7 +901,7 @@
            
 
         </script>
- 
+  -->
 
 
 </body>

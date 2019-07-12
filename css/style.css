@@ -448,8 +448,8 @@ img {
 
 #front .a{
       margin-top: 270px;
-    color: grey;
-     text-shadow: black 4px 0 3px;
+    color: black;
+     text-shadow: #fffefe 4px 0 3px;
         
 
  
@@ -457,17 +457,17 @@ img {
  
 #front .b{
  
-    font-size: 80px;
+    font-size: 77px;
     font-weight: 800;
     margin-bottom: 10px;
-    color: grey; 
-     text-shadow: black 4px 0 3px;
+    color: #000000cc; 
+     text-shadow: #fffefe 4px 0 12px;
 
 }
 
 #front .c{
-     color: grey; 
-      text-shadow: black 4px 0 3px;
+     color: black; 
+      text-shadow: #fffefe 4px 0 3px;
 
 }
 
@@ -599,6 +599,8 @@ canvas{
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
     border-radius:5px;
+    font-size: 20px;
+    margin-top: 60px;
 }
 .banner-btn:hover, .banner-btn:focus {
     text-decoration: none;
@@ -1002,7 +1004,6 @@ canvas{
 /*-------- 10. Testimonial area starts-----------*/
 
 .testimonial-area{
-	background-image: url(../images/testimonial/testimonial.png);
 	background-size:cover;
 	background-position: center center;
 	position: relative;

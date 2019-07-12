@@ -86,16 +86,19 @@ NB: This is the responsive stylesheet of this theme.
 }
 
 #front .a{
-margin-top: 167px;
-color: grey;
+margin-top: 267px;
+color: #000000cc;
 }
 
 
 
 #front .b{
-    color: grey;
+    color: #000000cc;
 }
 
+.banner-btn{
+    font-size: 30px;
+}
 
 
 #front .c{
@@ -181,18 +184,17 @@ color: grey;
 
 margin-top: 150px; 
 color: black;
- text-shadow: white 0 0 2px;
+ text-shadow: #fffefe 4px 0 12px;;
 font-size: 36px
 }
 
 
     #front .b{
     font-size: 41px;
-
     margin-top: 57px;
     margin-bottom: 48px;
     color: black;
- text-shadow: white 0 0 2px;
+    text-shadow: #fffefe 4px 0 12px;;
 }
 
     #front .c{
