@@ -875,33 +875,60 @@
     <script src="js/main.js"></script>  
 
 
-    
-    <!-- <script>
-            $("#send").click(function () {
+        <script>
+             $("document").ready(function(){
+                   $("#send").click(function () {
                 var params = {
                     name: $("#form_name").val(),
                     email: $("#form_email").val(),
                     message: $("#form_message").val(),
                 }
-                $.post("contact.php", params, function (data) {
-                    $("#send").text(data);
- 
-                    $("#hid").text("сообщение успешно отправилось");
-                    $("#hid").css("display", "block")
-           
-
-                                 function func() {
-                                    $("#hid").css("display", "none")
-            }
-
-            setTimeout(func, 3000);
+            
+                  $.ajax({
+                    url:"contact.php", 
+                    type: "GET",
+                    data: params,
+                    success: function(data){
+                        alert(data);
+                    } 
                 });
+                $("#send").text("Отправлено");
+                $("#hid").text("сообщение успешно отправилось");
+                $("#hid").css("display", "block")
+                function func() 
+                {
+                    $("#hid").css("display", "none")
+                }
+
+                setTimeout(func, 3000);
+    
+            
             });
+                // $.post("contact.php", params, function (data) {
+                //     $("#send").text(data);
+ 
+                //     $("#hid").text("сообщение успешно отправилось");
+                //     $("#hid").css("display", "block")
+             
+                //     function func() 
+                //     {
+                //      $("#hid").css("display", "none")
+                //     }
+                //     setTimeout(func, 3000);
+                //         });
+                //     });
 
-           
-
+                // $.ajax({
+                //     url:"contact.php", 
+                //     type: "GET",
+                //     data: params,
+                //     success: function(data){
+                //         alert(data);
+                //     } 
+                // });
+            });
         </script>
-  -->
+ 
 
 
 </body>
