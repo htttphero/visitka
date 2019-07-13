@@ -203,7 +203,7 @@
  
                                     <div class="skillbar" data-percent="70%">  
 
-                                        <h6 class="skillbar-title">PHP</h6> < 
+                                        <h6 class="skillbar-title">PHP</h6> 
                                         <h6 class="skillbar-percent">70%</h6>  
 
                                         <div class="skillbar-bar">
@@ -288,7 +288,7 @@
                             <div class="col-md-12">
                                     <div class="section-header wow fadeInDown" data-wow-delay="0.2s">
                                     
-                                        <h2>Что я предлагаю</h2>
+                                        <h2>Что понимаю</h2>
                                         <p class="line-one"></p>
 
                                     </div>
@@ -303,7 +303,7 @@
                                 </div>
                                 <div class="services-content">
                                     <h3>HTML5</h3>  
-                                    <p>Базовые навыки работы с HTML/CSS </p>
+                                    <p>Базовые навыки работы с HTML5, верста не сложных макетов. </p>
                                 </div>
                             </div>
 
@@ -312,7 +312,7 @@
                                     <i class="fab fa-css3-alt"></i> </div>
                                 <div class="services-content">
                                     <h3>CSS3</h3>  
-                                    <p>Базовые понятия. Flexbox. Bootstrap. Адапртивная верстка. Семантическая верстка. </p>
+                                    <p>Базовые понятия. Flexbox. Bootstrap. Медиа запросы.SASS, LESS. </p>
                                 </div>
                             </div>
 
@@ -323,7 +323,7 @@
                                 </div>                    
                                 <div class="services-content">
                                     <h3>Javascript</h3>  
-                                    <p>Базовые понятия. Архитектура. Замыкания. Контекст вызова. DOM. BOM. Асинхронный JS с использованием QUERY(Ajax)</p>
+                                    <p>Базовые понятия. Замыкания. Контекст вызова. DOM. Ajax.</p>
                                 </div>
 
                             </div>
@@ -333,8 +333,8 @@
                                     <i class="fab fa-php"></i>
                                 </div>
                                 <div class="services-content">
-                                    <h3>PHP/MYQL</h3>  
-                                    <p>Базовые понятия. ООП. Паттерны MVC, Singleton, Depedency Injection, Active Record. Основы синтаксиса SQL</p>
+                                    <h3>PHP/MYSQL</h3>  
+                                    <p> ООП. Паттерны GOF, MVC, Depedency Injection, composer, PSR,  RESTful API. SQL, PDO.</p>
                                 </div>
                             </div>
                     
@@ -345,7 +345,7 @@
                                     <i class="fab fa-vuejs"></i>                        </div>
                                 <div class="services-content">
                                     <h3>Vue JS</h3>  
-                                    <p>Базовые понятия. Компоненты. Маршрутизация. Vuetify.js. Vue-cli.</p>
+                                    <p>Базовые понятия. Компоненты.Vuex. Vue-cli.  </p>
                                 </div>
 
                             </div>
@@ -356,8 +356,7 @@
                                     <i class="fab fa-laravel"></i>                        </div>
                                 <div class="services-content">
                                     <h3>Laravel</h3> 
-                                    <p>Базовые понятия. MVC - Model View Controller. Аутентификация. CRUD и resource контроллеры.
-                                    Eloquent ORM. Миграции и сидеры. Пагинация. Валидация запросов.</p>
+                                    <p>Базовые понятия. Создание не сложных сайтов, Eloquent ORM.</p>
                                 </div>
 
                             </div>
@@ -367,7 +366,7 @@
                                     <i class="fab fa-wordpress-simple"></i>   </div>
                                 <div class="services-content">
                                     <h3>WordPress</h3> 
-                                    <p>Базовые понятия. Посадка верстки макета на WordPress. Actions and Filters. Underscores</p>
+                                    <p>Базовые понятия. Посадка не сложной верстки макета.</p>
                                 </div>
 
                             </div>
@@ -390,7 +389,7 @@
 				<div class="col-md-12">
 					<div class="section-header wow fadeInDown" data-wow-delay="0.2s">
 						 
-						<h2>Примеры моих работ</h2>
+						<h2>Примеры работ</h2>
 						<p class="line-one"></p>
 					</div>
 				</div>
@@ -408,9 +407,9 @@
                             <a href="#test-popup-2" data-effect="mfp-zoom-out">
                                 <div class="hovereffect">
 
-                                    <img src="assets/projectPictures/mvc3.png" alt="portfolio image" class="img-responsive">  
+                                    <img src="assets/projectPictures/crud.jpg" alt="portfolio image" class="img-responsive">  
                                     <div class="overlay">
-                                        <h2>Crud приложение</h2>  
+                                        <h2>CRUD</h2>  
                                     </div>
 
                                 </div>
@@ -421,14 +420,14 @@
 
                                 <div class="col-md-7">
                                     <div class="por-img">
-                                        <img src="assets/projectPictures/mvc3.png" alt="portfolio image" class="img-responsive">  
+                                        <img src="assets/projectPictures/crud.jpg" alt="portfolio image" class="img-responsive">  
                                     </div>
                                 </div>
                                 <div class="col-md-5">
                                     <div class="por-text">
                                         <h2>Crud приложение</h2>  
                                         <p> Приложение с использование php, Bootstrap и подключением к базе данных MySQL для просмотра удаления и редактирования записей.
-                                        В приложении создан специальный клас QueryBuilder для более удобной работы с базой данных. </p>
+                                        В приложении создан специальный клас QueryBuilder для более удобной работы при построении запросов с базой данных. </p>
                                         <div class="por-text-details">
                                             <div class="row">
                                                 <div class="col-xs-4">
@@ -460,9 +459,9 @@
                             <a href="#test-popup-3" data-effect="mfp-zoom-out">
                                 <div class="hovereffect">
 
-                                <img src="assets/projectPictures/blade.png" alt="portfolio image" class="img-responsive">  
+                                <img src="assets/projectPictures/starwars.jpg" alt="portfolio image" class="img-responsive">  
                                     <div class="overlay">
-                                        <h2>Project Three</h2> < 
+                                        <h2>movie listing application</h2> 
                                     </div>
 
                                 </div>
@@ -473,14 +472,14 @@
 
                                 <div class="col-md-7">
                                     <div class="por-img">
-                                    <img src="assets/projectPictures/blade.png" alt="portfolio image" class="img-responsive">  
+                                    <img src="assets/projectPictures/starwars.jpg" alt="portfolio image" class="img-responsive">  
                                     </div>
                                 </div>
                                 <div class="col-md-5">
                                     <div class="por-text">
-                                        <h2>My Project Title</h2>  
-                                        <p>Crud( create, read, update, and delete) приложение с использованием php, Bootstrap и подключением к базе данных MySQL.
-                                            В приложении создан специальный клас QueryBuilder для более удобной работы с базой данных.</p>
+                                        <h2>movie listing application</h2>  
+                                        <p>Приложение, которое показывает список фильмов. Создавалось с использованием JavaScript ES6, jQuery along и Axios 
+                                        для создание асинхронных HTTP запросов к OMDb API</p>
                                         <div class="por-text-details">
                                             <div class="row">
                                                 <div class="col-xs-4">
@@ -490,8 +489,9 @@
                                                 </div>
                                                 <div class="col-xs-offset-1 col-xs-7">
                                             
-                                                    <p>Drupal Site</p>  
-                                                    <p>www.sainsbury.co.uk</p>  
+                                                    <p>PHP site</p>  
+                                                    <a href="https://github.com/htttphero/movie-listing-application" target="_blank">github</a>  
+
                                                 </div>
                                             </div>
                                         </div>
@@ -511,9 +511,9 @@
                             <a href="#test-popup-4" data-effect="mfp-zoom-out">
                                 <div class="hovereffect">
 
-                                <img src="assets/projectPictures/mvc3.png" alt="portfolio image" class="img-responsive">  
+                                <img src="assets/projectPictures/mvc.jpg" alt="portfolio image" class="img-responsive">  
                                     <div class="overlay">
-                                        <h2>Project Four</h2>  
+                                        <h2>Блог созданный на самодельном микро-фреймворке</h2>  
                                     </div>
 
                                 </div>
@@ -523,13 +523,13 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <div class="por-img">
-                                        <img src="assets/projectPictures/mvc3.png" alt="portfolio image" class="img-responsive">  
+                                        <img src="assets/projectPictures/mvc.jpg" alt="portfolio image" class="img-responsive">  
                                     </div>
                                 </div>
                                 <div class="col-md-5">
                                     <div class="por-text">
-                                        <h2>My Project Title</h2>  
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, delectus deserunt eum eveniet, illo iste magni nobis non omnis quia</p>
+                                        <h2>Блог</h2>  
+                                        <p>Блон созданный на самодельном микрофреймворке. Добавлена возможность регистрации и авторизации, а также возможность создавать, удалять и редактировать записи.</p>
                                         <div class="por-text-details">
                                             <div class="row">
                                                 <div class="col-xs-4">
@@ -539,8 +539,10 @@
                                                 </div>
                                                 <div class="col-xs-offset-1 col-xs-7">
                                        
-                                                    <p>Shopify Site</p>  
-                                                    <p>www.woolworths.co.au</p> < 
+                                                    <p>PHP Site</p>  
+                                                    <a href="https://github.com/htttphero/simple-PHP-MVC-Framework" target="_blank">github</a>  
+
+                                           
                                                 </div>
                                             </div>
                                         </div>
@@ -560,9 +562,9 @@
                             <a href="#test-popup-5" data-effect="mfp-zoom-out">
                                 <div class="hovereffect">
 
-                                    <img src="assets/portfolioPicture/todo.jpg" alt="portfolio image" class="img-responsive">  
+                                    <img src="assets/projectPictures/todo.jpg" alt="portfolio image" class="img-responsive">  
                                     <div class="overlay">
-                                        <h2>Project Five</h2>  
+                                        <h2>To do App</h2>  
                                     </div>
 
                                 </div>
@@ -572,13 +574,13 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <div class="por-img">
-                                        <img src="assets/portfolioPicture/todo.jpg" alt="portfolio image" class="img-responsive"> 
+                                        <img src="assets/projectPictures/todo.jpg" alt="portfolio image" class="img-responsive"> 
                                     </div>
                                 </div>
                                 <div class="col-md-5">
                                     <div class="por-text">
-                                        <h2>My Project Title</h2>  
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, delectus deserunt eum eveniet, illo iste magni nobis non omnis quia</p>
+                                        <h2>To do App</h2>  
+                                        <p> To do приложение с возможностью добавлять удалять и редактировать задания с использованием VUE.JS фреймворка</p>
                                         <div class="por-text-details">
                                             <div class="row">
                                                 <div class="col-xs-4">
@@ -588,8 +590,8 @@
                                                 </div>
                                                 <div class="col-xs-offset-1 col-xs-7">
                             
-                                                    <p>Magento Site</p>  
-                                                    <p>www.titan.co.in</p>  
+                                                    <p>VUE.JS SITE</p>  
+                                                    <a href="https://github.com/htttphero/toDoApp" target="_blank">github</a>  
                                                 </div>
                                             </div>
                                         </div>
