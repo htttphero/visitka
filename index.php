@@ -887,10 +887,10 @@
                   $.ajax({
                     url:"contact.php", 
                     type: "GET",
-                    data: params,
-                    success: function(data){
-                        alert(data);
-                    } 
+                    data: params
+                    // success: function(data){
+                    //     alert(data);
+                    // } 
                 });
                 $("#send").text("Отправлено");
                 $("#hid").text("сообщение успешно отправилось");
