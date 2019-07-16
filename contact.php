@@ -2,10 +2,14 @@
 /*
  *  CONFIGURE EVERYTHING HERE
  */
-require_once './vendor/autoload.php';
+$path = $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
+require_once $path;
+
+
+// require_once dirname(__DIR__). './vendor/autoload.php';
 
  
- function mailTo($user_email, $user_name){
+ function mailTo($user_email, $user_name, $user_message){
   // Create the Transport
   $transport = (new Swift_SmtpTransport('smtp.ukr.net', '2525',   'ssl'))
       ->setUsername('profphp@ukr.net')
@@ -24,14 +28,23 @@ require_once './vendor/autoload.php';
   //     ->setTo($user_email)
   //     ->setBody($body, 'text/html');
 
-  $message = (new Swift_Message("Уважаемый $user_name"))
-      ->setFrom(['profphp@ukr.net' => 'Романец Сергей' ])
+  $message = (new Swift_Message("Dear $user_name"))
+      ->setFrom(['profphp@ukr.net' => 'Romanets Sergey' ])
       ->setTo("$user_email")
       ->setBody($body, 'text/html')
+  ;
+ 
+  
+  $message2 = (new Swift_Message("Dear Serg"))
+      ->setFrom(['profphp@ukr.net' => 'Romanets Sergey' ])
+      ->setTo("virucman@gmail.com")
+      ->setBody("Somebody write you a letter. His mail is ".$user_email. " and his message is " . $user_message)
   ;
 
   // Send the message
   $result = $mailer->send($message);
+  $result = $mailer->send($message2);
+
   // $result = $mailer->send($message_admin);
   // unset($_SESSION['cart']);
   // unset($_SESSION['cart.qty']);
@@ -40,7 +53,8 @@ require_once './vendor/autoload.php';
   // $_SESSION['success'] = 'Спасибо за Ваш заказ. В ближайшее время с Вами свяжется менеджер для согласования заказа';
 }
 
-mailTo($_GET['email'], $_GET['name']);
+mailTo($_GET['email'], $_GET['name'], $_GET['message']);
+// echo dirname(__DIR__). './vendor/autoload.php'; 
 
 
 

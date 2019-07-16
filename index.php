@@ -397,7 +397,7 @@
 
 			<div class="row">
 
-                <div class="portfolio-items row small-gutters">
+            
 
               
              <div class="col-md-4 col-sm-6 col-xs-12" style="height:330px;">
@@ -707,7 +707,7 @@
 
 
 
-                </div>  
+         
 
             </div>
 
@@ -889,10 +889,10 @@
                   $.ajax({
                     url:"contact.php", 
                     type: "GET",
-                    data: params
-                    // success: function(data){
-                    //     alert(data);
-                    // } 
+                    data: params,
+                    success: function(data){
+                        // alert(data);
+                    } 
                 });
                 $("#send").text("Отправлено");
                 $("#hid").text("сообщение успешно отправилось");
@@ -931,7 +931,6 @@
             });
         </script>
  
-
-
+ 
 </body>
 </html>
